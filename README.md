@@ -2,7 +2,7 @@
 
 ## Description
 This is a simple web application that sorts strings input by the user.  
-It demonstrates the **Strategy design pattern** with two sorting algorithms: Bubble Sort and Quick Sort, and follows the **MVC pattern**.
+It demonstrates the **Strategy design pattern** with two sorting algorithms: Bubble Sort and Quick Sort, and follows the **MVC structure**.
 
 ## Requirements
 - Ruby 3.4.3
