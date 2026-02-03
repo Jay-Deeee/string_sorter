@@ -1,1 +1,30 @@
 <h1>String Sorter</h1>
+
+<%= form_with url: sortings_path, method: :post, local: true do %>
+  <div>
+    <%= label_tag :input, "Input String" %><br>
+    <%= text_field_tag :input, params[:input] %>
+  </div>
+
+  <br>
+
+  <div>
+    <%= label_tag :strategy, "Sorting Strategy" %><br>
+    <%= select_tag :strategy, options_for_select([
+      ["Bubble Sort", "bubble"],
+      ["Quick Sort", "quick"]
+    ]) %>
+  </div>
+
+  <br>
+
+  <%= submit_tag "Sort" %>
+<% end %>
+
+<% if @result %>
+  <p><strong>Sorted Output:</strong> <%= @result %></p>
+<% end %>
+
+<% if @error %>
+  <p style="color: red;"><%= @error %></p>
+<% end %>
