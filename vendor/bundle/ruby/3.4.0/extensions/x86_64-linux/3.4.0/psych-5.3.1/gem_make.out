@@ -1,0 +1,29 @@
+current directory: /home/jino/Desktop/Personal/code_tests/string_sorter/vendor/bundle/ruby/3.4.0/gems/psych-5.3.1/ext/psych
+/home/jino/.rbenv/versions/3.4.3/bin/ruby extconf.rb
+checking for pkg-config for yaml-0.1... [" ", "", "-lyaml"]
+creating Makefile
+
+current directory: /home/jino/Desktop/Personal/code_tests/string_sorter/vendor/bundle/ruby/3.4.0/gems/psych-5.3.1/ext/psych
+make DESTDIR\= sitearchdir\=./.gem.20260203-7742-tyrryw sitelibdir\=./.gem.20260203-7742-tyrryw clean
+cd libyaml && make clean
+/bin/sh: 1: cd: can't cd to libyaml
+make: [Makefile:287: clean-so] Error 2 (ignored)
+
+current directory: /home/jino/Desktop/Personal/code_tests/string_sorter/vendor/bundle/ruby/3.4.0/gems/psych-5.3.1/ext/psych
+make DESTDIR\= sitearchdir\=./.gem.20260203-7742-tyrryw sitelibdir\=./.gem.20260203-7742-tyrryw
+compiling psych.c
+compiling psych_emitter.c
+compiling psych_parser.c
+compiling psych_to_ruby.c
+compiling psych_yaml_tree.c
+linking shared-object psych.so
+
+current directory: /home/jino/Desktop/Personal/code_tests/string_sorter/vendor/bundle/ruby/3.4.0/gems/psych-5.3.1/ext/psych
+make DESTDIR\= sitearchdir\=./.gem.20260203-7742-tyrryw sitelibdir\=./.gem.20260203-7742-tyrryw install
+/usr/bin/install -c -m 0755 psych.so ./.gem.20260203-7742-tyrryw
+
+current directory: /home/jino/Desktop/Personal/code_tests/string_sorter/vendor/bundle/ruby/3.4.0/gems/psych-5.3.1/ext/psych
+make DESTDIR\= sitearchdir\=./.gem.20260203-7742-tyrryw sitelibdir\=./.gem.20260203-7742-tyrryw clean
+cd libyaml && make clean
+/bin/sh: 1: cd: can't cd to libyaml
+make: [Makefile:287: clean-so] Error 2 (ignored)
