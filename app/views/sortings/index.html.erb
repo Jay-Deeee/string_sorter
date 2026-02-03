@@ -1,6 +1,6 @@
 <h1>String Sorter</h1>
 
-<%= form_with url: sortings_path, method: :post, local: true do %>
+<%= form_with url: sortings_path, method: :post, local: true, data: { turbo: false } do %>
   <div>
     <%= label_tag :input, "Input String" %><br>
     <%= text_field_tag :input, params[:input] %>
